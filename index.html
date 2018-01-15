@@ -1,1 +1,263 @@
 <!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="U-XA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Lab&#60;ar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/modals.css">
+  </head>
+  <body>
+    <div class="container-fliud">
+
+      <!-- Barra de Navegacion -->
+
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="nav-header">
+            <button class="navbar-toggle collapsed pull-left" type="button" data-toggle="collapse" aria-expanded="false" data-target="#collapsemenu">
+              <span class="sr-only">Toggle navigation<span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-left" href="#"><img src="assets/images/logoForma.png" alt="Logo Forma"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="collapsemenu">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Viaja</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Conduce</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-toggle="modal" data-target="#signin">Inicia Sesion</a>
+                </li>
+              </ul>
+
+      <!-- Modal de Inicio de Sesion -->
+             <div class="modal-signin fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+               <div class="modal-dialog" role="document">
+                 <div class="modal-content colorModal">
+                   <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
+                     <img src="assets/images/user-placeholder.png" class="img-responsive center-block" alt="User Avatar">
+                   </div>
+                   <div class="modal-body colorModalBody">
+                     <form class="form-horizontal" align="center">
+                       <div class="form-group">
+                         <label class="sr-only" for="inputUsername">Username</label>
+                         <div class="input-group">
+                           <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
+                           <input type="text" class="form-username" id="inputUsername" placeholder="Username">
+                         </div>
+                       </div>
+                       <div class="form-group">
+                         <label class="sr-only" for="inputPassword">Password</label>
+                         <div class="input-group">
+                           <div class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></div>
+                           <input type="text" class="form-password" id="inputPassword" placeholder="Password">
+                         </div>
+                       </div>
+                       <button type="button" style="background-color:#F7B617;"class="btn btn-default center-block">LOGIN</button>
+                       <h5 class="forgot" align="center">Forgot Password?<span style="color:lightblue;"> Click Here</span></h5>
+                     </form>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+          </div>
+        </div>
+      </nav>
+
+      <!-- Seccion principal -->
+
+      <main>
+        <div class="travel-message">
+          <div class="desktop-message">
+            <h2>Disfruta viajar<br>Eres dueño de tu tiempo</h2>
+            <h3>Viaja con <img src="assets/images/logoBlanco.png" alt="Logo Blanci"><h3>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#signup">REGISTRATE</button>
+          <!--  <div class="modal-signup fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog">
+                <div class="modal-content">
+
+                </div>
+              </div>
+            </div>-->
+            <div class="or-box" align="center">
+              <hr align="left" width="20%">
+              <p align= "center">O bien</p>
+              <hr align="right" width="20%">
+            </div>
+            <button type="button" class="btn btn-info">Conviertete en conductor</button>
+          </div>
+          <div class="mobile-message">
+            <h1>Comienza a viajar con <img src="assets/images/logoBlanco.png" alt="Logo"></h1>
+            <button type="button" class="btn btn-info">Descargar la app</button>
+          </div>
+        </div>
+      </main>
+
+      <!-- Seccion para descargar la app -->
+
+      <section class="our-app">
+        <div class="app-container">
+          <div class="desktop-app">
+            <img src="assets/images/iPhone6Plus.png" alt="iPhone 6 Plus">
+            <div class="app-text col-sm-4">
+              <h2>Descarga la nueva app</h2>
+              <p>La nueva version de LabCar esta llena de nuevas funciones
+              para llegar donde quieras aun mas facil y rapido.<br><br>
+              Con solo tocar un boton, un auto llega justo a tu ubicacion.
+              Subete y no te preocupes: tu conducto sabe exactamente a donde ir.
+              </p>
+            </div>
+          </div>
+          <div class="mobile-app">
+            <h2>La nueva app</h2>
+            <img src="assets/images/iPhone6Plus.png" alt="iPhone 6 Plus">
+            <h3>Llega a tu destino mas rapido</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seccion para la opcion de conductores -->
+
+      <section class="become-driver">
+        <div class="drive">
+          <h2>Conduce cuando quieras</h2>
+          <p>LabCar es una opcion flexible para alcanzar tus metas financieras.</p>
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#becamedriver">Conviertete en conductor</button>
+          <!--<div class="modal-driver fade" id="becamedriver" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-form-container">
+                  <div class="dropdown">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </section>
+
+      <!-- Seccion para la tarifa y el maps -->
+
+      <section class="rate-maps">
+          <div class="rate-container">
+            <h2>Tarifas</h2>
+            <p>Consulta las tarifas LabCar aqui:</p>
+            <div class="point">
+              <img src="assets/images/shape.png" alt="Shape">
+              <label>
+                <input type="text" class="form-control" placeholder="Ingrese su punto de partida">
+              </label>
+            </div>
+            <div class="destination">
+              <img src="assets/images/shape2.png" alt="Shape">
+              <label>
+                <input type="text" class="form-control" placeholder="Ingrese su destino">
+              </label>
+            </div>
+            <div class="mobile-btn">
+              <button type="button" class="btn btn-info">¡TRAZAR RUTA!</button>
+            </div>
+          </div>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12654.75312134923!2d126.98344828565038!3d37.53884477684755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca24c0510be8f%3A0x1ad07db728bb9103!2sItaewon-dong%2C+Yongsan-gu%2C+Se%C3%BAl%2C+Corea+del+Sur!5e0!3m2!1ses-419!2smx!4v1515816747599" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+      </section>
+
+      <!-- Pie de pagina -->
+
+      <footer>
+        <div class="desktop-footer">
+          <img src="assets/images/logoBlanco.png" alt="Logo Blanco">
+          <div class="footer-container">
+            <div class="footer-section col-sm-3">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i class="fa fa-apple" aria-hidden="true"></i>
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </div>
+            <div class="footer-section col-sm-3">
+              <ul>
+                <li><a href="#">Viaja</a></li>
+                <li><a href="#">Conduce</a></li>
+                <li><a href="#">Ciudades</a></li>
+                <li><a href="#">Ciudades</a></li>
+                <li><a href="#">Entregas</a></li>
+                <li><a href="#">Como funciona?</a></li>
+                <li><a href="#">Paises</a></li>
+                <li><a href="#">Seguridad</a></li>
+              </ul>
+            </div>
+            <div class="footer-section col-sm-3">
+              <ul>
+                <li><a href="#">Oportunidades</a></li>
+                <li><a href="#">Nuestra Historia</a></li>
+                <li><a href="#">API de LabCar</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Desarrolladores</a></li>
+                <li><a href="#">Servicio</a></li>
+                <li><a href="#">Laboratoria</a></li>
+                <li><a href="#">Coders</a></li>
+              </ul>
+            </div>
+            <div class="footer-section col-sm-3">
+              <img class="appstore" src="assets/images/appstore.png" alt="Appstore">
+              <img src="assets/images/playstore.png" alt="Playstore">
+            </div>
+          </div>
+          <p>&copy; 2017 LabCar technologies Inc.</p>
+        </div>
+
+        <div class="mobile-footer">
+          <img src="assets/images/logoBlanco.png" alt="Logo Blanco">
+          <div class="footer-container">
+            <div class="footer-section col-xs-6">
+              <ul>
+                <li><a href="#">Viaja</a></li>
+                <li><a href="#">Conduce</a></li>
+                <li><a href="#">Ciudades</a></li>
+                <li><a href="#">Ciudades</a></li>
+                <li><a href="#">Entregas</a></li>
+                <li><a href="#">Como funciona?</a></li>
+                <li><a href="#">Paises</a></li>
+                <li><a href="#">Seguridad</a></li>
+              </ul>
+            </div>
+            <div class="footer-section col-xs-6">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i class="fa fa-apple" aria-hidden="true"></i>
+              <i class="fa fa-play" aria-hidden="true"></i>
+              <img class="appstore" src="assets/images/appstore.png" alt="Appstore">
+              <img src="assets/images/playstore.png" alt="Playstore">
+            </div>
+          </div>
+          <p>&copy; 2017 LabCar technologies Inc.</p>
+        </div>
+      </footer>
+
+      <!-- Seccion para los modales -->
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>

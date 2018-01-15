@@ -1,1 +1,274 @@
 /* Los estilos de tu proyecto */
+/*#F7B616 ; #2B2B2B*/
+
+/* Estilos para la Barra de Navegacion */
+
+.navbar {
+  padding: 20px;
+  margin-bottom: 0px;
+  background-color: #FFFFFF;
+}
+
+.navbar > .container-fluid > .nav-header > .navbar-toggle {
+  height: 35px;
+}
+
+/* Estilos para la Seccion Principal */
+
+main {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100vh;
+}
+
+main > .travel-message {
+  float: right;
+  position: static;
+  height: 380px;
+  width: 500px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #F7B616;
+  color: #FFFFFF;
+}
+
+main > .travel-message > .desktop-message > h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+main > .travel-message > .desktop-message > h3 > img {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.or-box {
+  margin-top: 10px;
+}
+
+.or-box > p {
+  font-size: 15px;
+}
+
+hr {
+  margin-bottom: 4px;
+}
+
+hr, p {
+  display: inline-block;
+}
+
+.btn {
+  border-style: none;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #2B2B2B;
+}
+
+/* Estilos para la Seccion de Nuestra App */
+
+.our-app {
+  background-color: #F7B616;
+  background-attachment: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.app-container {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-width: thin;
+  border-left: none;
+  width: 80%;
+  height: 550px;
+  margin-top: 45px;
+}
+
+.app-container > .desktop-app > img {
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.app-container > .desktop-app > .app-text {
+  float: right;
+  margin: 120px;
+  color: #FFFFFF;
+}
+
+.app-text > h2 {
+  font-weight: bold;
+}
+
+.app-text > p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+/* Estilos para la seccion de la opciones de conductor */
+
+.become-driver {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.become-driver > .drive {
+  float: right;
+  padding: 75px;
+  width: 500px;
+  height: 80vh;
+  background-color: rgba(43, 43, 43 ,0.40);
+  color: #FFFFFF;
+}
+
+.drive > h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.drive > p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.drive > .btn {
+  background-color: #F7B616;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+
+.drive > .btn:hover {
+  background-color: #2B2B2B;
+}
+
+/* Estilos pata la seccion de tarifa y maps */
+
+.rate-maps {
+  background-color: #F7B616;
+  background-attachment: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 80vh;
+}
+
+.rate-maps > .rate-container {
+  float: left;
+  padding: 100px;
+}
+
+.rate-container > h2, p {
+  margin-top: 10px;
+  color: #FFFFFF;
+}
+
+.rate-container > p {
+  font-size: 17px;
+}
+
+.form-control {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.form-control::placeholder {
+  color: #FFFFFF;
+}
+
+.rate-maps > .rate-container > .mobile-btn {
+  margin-top: 70px;
+  margin-left: 150px;
+}
+
+.rate-btn {
+  border-style: none;
+  border-radius: 3px;
+  width: 200px;
+  padding: 10px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.rate-maps > .map-container {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-width: thin;
+  float: right;
+  width: 450px;
+  height: 350px;
+  padding: 25px;
+  margin-right: 110px;
+  margin-top: 65px;
+}
+
+
+/* Estilos de pie de pagina */
+
+footer {
+  background-color: #2B2B2B;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 70px;
+  width: 100%;
+  height: 90vh;
+  color: #FFFFFF;
+}
+
+.desktop-footer > .footer-container {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-width: thin;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  height: 350px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+i {
+  margin: 10px;
+  margin-top: 100%;
+}
+
+.desktop-footer > .footer-container > .footer-section > ul > li {
+  list-style: none;
+  padding: 7px;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.desktop-footer > .footer-container > .footer-section > img {
+  padding: 10px;
+}
+
+.desktop-footer > .footer-container > .footer-section > .appstore {
+  margin-top: 130px;;
+}

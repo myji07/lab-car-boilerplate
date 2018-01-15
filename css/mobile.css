@@ -1,0 +1,123 @@
+/* Estilos para la version Mobile */
+/* Separare por secciones lo que se tiene que mostrar y ocultar en la version Mobile */
+
+@media (min-width: 768px) { /* Evitara mostrar estos estilos en la version desktop */
+  main > .travel-message > .mobile-message {
+    display: none;
+  }
+  .our-app > .app-container > .mobile-app {
+    display: none;
+  }
+  .rate-maps > .rate-container > .mobile-btn {
+    display: none;
+  }
+  footer > .mobile-footer {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) { /* Mostrara estilos especificos para la seccion principal */
+  .navbar-toggle {
+    float: left;
+  }
+  .desktop-message {
+    display: none;
+  }
+  main > .travel-message {
+    margin-top: 150px;
+    padding: 40px;
+    width: 450px;
+    height: 250px;
+  }
+
+  main > .travel-message > .mobile-message > h1 {
+    font-size: 40px;
+  }
+
+  main > .travel-message > .mobile-message > .main-btn {
+    margin-top: 15px;
+  }
+  .our-app > .app-container > .desktop-app {
+    display: none;
+  }
+  .our-app > .app-container {
+    width: 90%;
+    height: 500px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #FFFFFF;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+  }
+
+  .our-app > .app-container > .mobile-app > h2,h3 {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .our-app > .app-container > .mobile-app > img {
+    width: 45%;
+    margin-top: 40px;
+    margin-left: 180px;
+  }
+  .become-driver > .drive {
+    width: 100%;
+  }
+  .rate-maps {
+    height: 175vh;
+  }
+  .rate-maps > .rate-container {
+    width: 100%;
+    padding: 85px;
+  }
+  .rate-maps > .rate-container > .point > label > .form-control {
+    width: 170%;
+  }
+  .rate-maps > .rate-container > .destination > label > .form-control {
+    width: 170%;
+  }
+  .rate-maps > .map-container {
+    width: 68%;
+    height: 350px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #FFFFFF;
+    margin-top: 10px;
+  }
+  footer > .desktop-footer {
+    display: none;
+  }
+  footer {
+    padding: 35px;
+  }
+  footer > .mobile-footer {
+    display: block;
+  }
+  footer > .mobile-footer > .footer-container {
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: thin;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+    margin-top: 25px;
+  }
+  footer > .mobile-footer > .footer-container > .footer-section > img {
+    padding: 10px;
+  }
+  footer > .mobile-footer > .footer-container > .footer-section > .appstore {
+    margin-top: 50px;
+  }
+  i {
+    margin: 10px;
+  }
+  footer > .mobile-footer > .footer-container > .footer-section > ul > li {
+    list-style: none;
+    padding: 7px;
+    padding-left: 0px;
+  }
+}
